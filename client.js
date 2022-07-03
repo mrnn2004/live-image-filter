@@ -1,4 +1,4 @@
-var ws = new WebSocket("wss://send-live-image-to-telegram.herokuapp.com:29589");
+var ws = new WebSocket("wss://be95-190-2-130-177.ngrok.io");
 
 ws.onopen = function() {
     var img = document.getElementById('defaultCanvas0');
