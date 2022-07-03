@@ -1,0 +1,53 @@
+body
+{
+    background-color: whitesmoke;
+}
+
+.container
+{
+    width: 100%;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+button
+{
+    width: 15%;
+    height: 20px;
+    font-family: Arial;
+    font-size: 11px;
+    color: #FFFFFF;
+    background-color: #9747ff;
+    border: 0px;
+    border-radius: 3px;
+    display: inline;
+}
+
+#color_name
+{
+    width: 25%;
+    height: 20px;
+    font-size: 14px;
+    border: 1px solid #9747ff;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    padding-left: 5px;
+    border-radius: 0px 0px 2px 2px;
+    display: inline;
+    position: relative;
+    font-size: 10px;
+}
+
+::placeholder{
+    color: #be8cff;
+}
+
+canvas {
+    left: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e7e5e5;
+  }
+
