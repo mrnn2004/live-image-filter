@@ -1,4 +1,4 @@
-var ws = new WebSocket("wss://localhost:3000");
+var ws = new WebSocket("wss://ddae-5-126-15-130.ngrok.io");
 
 ws.onopen = function() {
     var img = document.getElementById('defaultCanvas0');
