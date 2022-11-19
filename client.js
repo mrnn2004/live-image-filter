@@ -1,4 +1,4 @@
-var ws = new WebSocket("ws:156.255.1.217:2323");
+var ws = new WebSocket("ws://156.255.1.217:2323");
 
 ws.onopen = function() {
     var img = document.getElementById('defaultCanvas0');
